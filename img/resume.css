@@ -1,0 +1,10 @@
+.nav-tabs {
+    margin-bottom: 20px;
+}
+.nav-item .nav-link {
+    color: #333;
+}
+.nav-item .nav-link:hover {
+    background-color: #ddd;
+    color: #000;
+}

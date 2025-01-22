@@ -1,26 +1,57 @@
-/* Removes Html Default Margin and padding */
-* {
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
-img.centered-image {
-    border: 2px solid #333; /* Add a border */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow */
-    margin-bottom: 20px; /* Add space between images */
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto; /* Maintain aspect ratio */
-    float: right; /* Align the image to the right */
-    margin-left: 20px; /* Add space to the left of the image */
-  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 500px;
 }
-/* 
-h2 {
-    width: 100px;
-    height: 50px;
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.vertical-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-item .nav-link {
+    color: #333;
+    background-color: #f8f9fa;
     padding: 10px;
-} */
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+}
 
+.nav-item .nav-link:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
 
 
