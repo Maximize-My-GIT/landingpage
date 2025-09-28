@@ -10,3 +10,6 @@ document.getElementById('resumeButton').addEventListener('click', function() {
 document.getElementById('contactButton').addEventListener('click', function() {
     window.location.href = 'contact.html';
 });
+document.getElementById('boardButton').addEventListener('click', function() {
+    window.location.href = 'board.html';
+});
