@@ -1,2 +1,1 @@
-# Capstone
-Jasmine's Portfolio
+# Jasmine's Landing Page

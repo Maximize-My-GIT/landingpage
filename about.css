@@ -1,15 +1,21 @@
-/* #aboutMe {
+ #aboutMe {
     border-radius: 1px;
-    background-color: rgb(36, 122, 192);
-    text-align: justify;
+    /* background-color: rgb(36, 122, 192); */
+    text-align:center;
     margin-top: auto;
-    margin-left: 50px;
+    margin-left: auto;
     margin-right: 50px;
+    padding-top: 50px;
 
     
 }
 
-#mission {
+#image {
+    padding-bottom: 50%;
+
+}
+
+/* #mission {
     background-color: rgb(36, 122, 192);
     text-align: justify;
     margin-top: auto;
@@ -27,9 +33,9 @@
     margin-right: 50px;
 
     
-}
+} */
 
 .aboutMe {
   text-align: center;  
-} */
+} 
 
